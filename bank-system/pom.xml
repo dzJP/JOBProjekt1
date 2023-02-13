@@ -3,6 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.bank</groupId>
   <artifactId>bank-system</artifactId>
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
+    </properties>
   <packaging>jar</packaging>
     <build>
         <plugins>
@@ -27,4 +31,5 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
 </project>
